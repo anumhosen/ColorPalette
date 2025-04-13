@@ -9,6 +9,7 @@
 .mainBox {
   margin: 20px auto;
   width: 95%;
+  border: 2px solid red;
 }
 .mainBox h2 {
   text-align: center;
@@ -33,7 +34,8 @@
 }
 .childBox {
   height: 150px;
-  width: 120px;
+  width: 31%;
+  max-width: 120px;
   cursor: pointer;
   display: flex;
   align-items: center;
