@@ -47,9 +47,8 @@
   font-weight: bold;
   text-align: center;
   width: 95%;
-
   color: black;
-  background-color: white;
+  background: white;
   padding: 5px 0;
   border-radius: 5px;
 }
