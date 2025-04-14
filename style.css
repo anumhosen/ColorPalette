@@ -1,10 +1,13 @@
 /* Bootstrap Icon */
-/* Option 2: Import via CSS */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
 }
 .mainBox {
   margin: 20px auto;
@@ -44,7 +47,8 @@
 }
 .childBox p {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 400;
+  /* font-weight: bold; */
   text-align: center;
   width: 95%;
   color: black;
