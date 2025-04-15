@@ -8,7 +8,8 @@ childs.forEach((child) => {
   child.addEventListener("click", () => {
     navigator.clipboard.writeText(bgColor);
     let msgBox = document.createElement("span");
-    msgBox.innerText = "Copied";
+    msgBox.innerHTML = 'Copied <i class="fa-solid fa-circle-check"></i>';
+
     child.prepend(msgBox);
 
     setTimeout(() => {
