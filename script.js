@@ -13,6 +13,6 @@ childs.forEach((child) => {
 
     setTimeout(() => {
       msgBox.remove();
-    }, 300);
+    }, 400);
   });
 });
