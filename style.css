@@ -46,6 +46,7 @@
   justify-content: center;
   position: relative;
   border-radius: 5px;
+  padding-bottom: 5px;
 }
 .childBox p {
   font-size: 18px;
