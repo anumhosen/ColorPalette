@@ -42,7 +42,7 @@
   max-width: 120px;
   cursor: pointer;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   position: relative;
   border-radius: 5px;
